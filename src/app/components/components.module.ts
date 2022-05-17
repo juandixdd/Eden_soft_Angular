@@ -8,6 +8,7 @@ import { CotizacionComponent } from './modules/ventas/cotizacion/cotizacion.comp
 import { RolesComponent } from './modules/configuracion/roles/roles.component';
 import { LoginComponent } from './modules/usuarios/login/login.component';
 import { RegistroComponent } from './modules/usuarios/registro/registro.component';
+import { SideBarMenuComponent } from './shared/side-bar-menu/side-bar-menu.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { RegistroComponent } from './modules/usuarios/registro/registro.componen
     CotizacionComponent,
     RolesComponent,
     LoginComponent,
-    RegistroComponent
+    RegistroComponent,
+    SideBarMenuComponent
   ],
   imports: [
     CommonModule,
