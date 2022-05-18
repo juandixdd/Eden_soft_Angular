@@ -23,7 +23,8 @@
                             <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
                         </form>
 
-                        <button type="button" class="btn custom-button col-md-4">
+                        <button type="button" class="btn custom-button col-md-4" data-bs-toggle="modal"
+                            data-bs-target="#addModal">
                             Crear Cotización
                         </button>
                     </div>
@@ -89,6 +90,28 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
+    </div>
+</div>
+
+<!-- *************************************** Modales ********************************************* -->
+
+<!-- ? add Modal -->
+
+<div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="addModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Crear cotización</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn custom-button">Crear</button>
+            </div>
         </div>
     </div>
 </div>
